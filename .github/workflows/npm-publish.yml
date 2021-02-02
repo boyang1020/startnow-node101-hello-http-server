@@ -1,6 +1,6 @@
 name: CI/release
 on:
-  push:
+  pull-request:
     branches: [master]
   jobs:
   createPullRequest:
