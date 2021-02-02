@@ -2,7 +2,7 @@ name: CI/release
 on:
   push:
     branches: [master]
-  jobs:
+jobs:
   createPullRequest:
     runs-on: ubuntu-latest
     steps:
