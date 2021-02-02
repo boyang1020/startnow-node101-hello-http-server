@@ -28,8 +28,8 @@ jobs:
           labels: |
             report
             automated pr
-          assignees: peter-evans
-          reviewers: peter-evans
+          assignees: bo
+          reviewers: bo
           team-reviewers: |
             owners
             maintainers
