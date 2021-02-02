@@ -1,4 +1,8 @@
-jobs:
+name: CI/release
+on:
+  push:
+    branches: [master]
+  jobs:
   createPullRequest:
     runs-on: ubuntu-latest
     steps:
